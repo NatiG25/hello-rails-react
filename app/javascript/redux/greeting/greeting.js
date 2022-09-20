@@ -6,9 +6,8 @@ const url = 'http://[::1]:3000/api/v1/messages.json';
 export const fetchGreetings = () => async (dispach) => {
     const res = await fetch(url);
     const resJSON = await res.json();
-    console.log(resJSON);
 
-    dispach(get_greeting(payload))
+    dispach(get_greeting(resJSON))
 }
 
 const greetingReducer = (state = [], action) => {
