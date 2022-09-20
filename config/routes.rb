@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  get 'messages/index'
+  namespace :api do
+    namespace :v1 do
+      resources :messages, only: [:index]
+    end
+  end
   root 'messages#index'
-  # resources :roots
+  resources :messages, only: [:index]
 end
