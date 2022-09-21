@@ -1,24 +1,77 @@
-# README
+# ![](https://img.shields.io/badge/Microverse-blueviolet) 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# hello-rails-react
 
-Things you may want to cover:
+Usin ror with react.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby on Rails
+- Ruby
+- React
 
-* Configuration
+## Prerequisites
 
-* Database creation
+- Ruby
+- Ruby on Rails
+- PostgreSQL
+- React
 
-* Database initialization
+## Install
 
-* How to run the test suite
+- Ruby
+- Ruby on Rails(as a gem)
+- Postgresql database
 
-* Services (job queues, cache servers, search engines, etc.)
+## Live Demo(not available)
+[Live link](https://budget-app-nati.herokuapp.com/)
 
-* Deployment instructions
+## Getting Started
 
-* ...
+
+To get a local copy of the app, run the following commands in your terminal:
+- `git clone git@github.com:NatiG25/hello-rails-react.git`
+- `cd /hello-rails-react.git`
+- `bundle install`
+
+Run the following commands to run the app
+
+- `rails db:create`
+- `rails db:migrate`
+- `rails s`
+
+In your browser, go to
+
+- `http://localhost:3000`
+
+## Testing
+- To install rspec: gem install rspec
+- To run all the tests: rspec ./spec
+
+
+## Author
+
+👤 **Natnail G/gorgis**
+
+- GitHub: [@NatiG25](https://github.com/NatiG25)
+- Twitter: [@NatiG255](https://twitter.com/NatiG87702270)
+- LinkedIn: [@Nati](https://www.linkedin.com/in/natnailgorgis/ )
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/aimalamiri/Ruby-Catalog/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Microverse Linters](https://www.microverse.org/)
+- Code reviewers
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
