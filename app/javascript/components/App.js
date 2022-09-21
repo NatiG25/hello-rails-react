@@ -1,20 +1,17 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { Link, Route, Routes } from 'react-router-dom';
 import Greeting from './Greeting';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchGreetings } from '../redux/greeting/greeting';
 
 const App = () => {
-  const greetings = useSelector((state) => state.greetingReducer)
-  const dispach = useDispatch();
-
-  useEffect(() => {
-    dispach(fetchGreetings())
-  }, [])
 
     return (
-    <>
-        <Greeting text={greetings.text}/>
-    </>
+    <main>
+    <h1>Hello World!</h1>
+    <Link to="greeting">Greeting</Link>
+    <Routes>
+       <Route path='/greeting' element={<Greeting />}/>
+    </Routes>
+    </main>
   );
 }
 
